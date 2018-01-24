@@ -29,6 +29,10 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 希望大家看完之后，都能有所收获，早日找到梦寐以求的 Offer。
 
+## GitBook链接
+
+为方便大家阅读，将本repo同步至GitBook： 
+
 ## 求职
 
 最近我也在求职，有好的工作可以给我推荐一下，这是[我的在线简历](https://github.com/todayqq/resume)。
