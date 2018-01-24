@@ -1,4 +1,4 @@
-PHP 篇收集了一些常见的基础、和进阶面试题，基础的面试题不再作答。
+PHP 篇收集了一些常见的基础、进阶面试题，基础的面试题不再作答。
 
 ### 基础篇
 
@@ -69,3 +69,11 @@ DIP	| 依赖反转原则	| 依赖抽象而不是具体实现
 
 > 1. RDB 持久化，将 Redis 在内存中的的状态保存到硬盘中，相当于备份数据库状态。
 > 2. AOF 持久化（Append-Only-File），AOF 持久化是通过保存 Redis 服务器锁执行的写状态来记录数据库的。相当于备份数据库接收到的命令，所有被写入 AOF 的命令都是以 Redis 的协议格式来保存的。
+
+### 扩展阅读
+
+- [3年PHPer的面试总结](http://coffeephp.com/articles/4?utm_source=laravel-china.org)
+- [垃圾回收机制](http://docs.php.net/manual/zh/features.gc.performance-considerations.php)
+- [S.O.L.I.D 面向对象设计](https://laravel-china.org/articles/4160/solid-object-oriented-design-and-programming-oodoop-notes?order_by=created_at&)
+- [浅谈IOC--说清楚IOC是什么](http://www.cnblogs.com/DebugLZQ/archive/2013/06/05/3107957.html)
+- [Redis和Memcached的区别](https://www.biaodianfu.com/redis-vs-memcached.html)
