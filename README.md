@@ -47,4 +47,4 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 ## 转载合作
 
-转载本指南，请注明作者以及 GitHub 链接，谢谢
+转载本指南，请注明作者以及 GitHub 链接，谢谢！
