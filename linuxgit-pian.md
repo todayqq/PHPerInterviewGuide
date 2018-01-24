@@ -51,3 +51,10 @@
 > - 功能分支（feature branch）
 > - 补丁分支（hotfix branch）
 > - 预发分支（release branch）
+
+### 扩展阅读
+
+- [linux面试常问命令](http://blog.csdn.net/u010842515/article/details/72732106)
+- [Linux常见面试题](https://www.leolan.top/index.php/posts/36.html)
+- [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [Gitflow 工作流](https://laravel-china.org/articles/6318/gitflow-workflow)
