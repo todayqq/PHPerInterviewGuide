@@ -31,7 +31,7 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 ## GitBook链接
 
-为方便大家阅读，将本repo同步至GitBook： 
+为方便大家阅读，将本repo同步至GitBook：https://todayqq.gitbooks.io/phper/content/
 
 ## 求职
 
