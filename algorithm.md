@@ -93,6 +93,8 @@ function binSearch($arr, $target){
 }
 ```
 
+算法就简单罗列这几种，了解更多就看看扩展阅读吧。
+
 ### 扩展阅读
 
 - [PHP 冒泡排序](https://www.cnblogs.com/wgq123/p/6529450.html)
