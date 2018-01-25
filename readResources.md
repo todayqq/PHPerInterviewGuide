@@ -18,6 +18,7 @@
 - [分库分表的几种常见形式](http://www.infoq.com/cn/articles/key-steps-and-likely-problems-of-split-table)
 - [大众点评订单系统分库分表实践](https://tech.meituan.com/dianping_order_db_sharding.html)
 - [MySQL 死锁问题及解决](http://onwise.xyz/2017/04/20/mysql-%E6%AD%BB%E9%94%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3/)
+- [MySQL索引背后的数据结构及算法原理](https://www.kancloud.cn/kancloud/theory-of-mysql-index/41846)
 
 ### 算法篇
 
