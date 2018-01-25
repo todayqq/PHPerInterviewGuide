@@ -39,3 +39,4 @@
 - [程序员简历应该怎么写？](https://www.zhihu.com/question/25002833)
 - [程序员简历模板](https://github.com/geekcompany/ResumeSample)
 - [关于程序员生涯的思考，30 岁以后的码农们该何去何从？](https://www.jianshu.com/p/7e68484a7811)
+- [你的命运不是一头骡子](http://www.ruanyifeng.com/blog/2016/06/your-destiny-is-not-like-a-mule.html)
