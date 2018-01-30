@@ -16,14 +16,15 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 这次整理了不少面试相关的知识和技巧，给大家简单介绍一下纲要：
 
-- Web 篇
-- PHP 篇
-- Laravel 篇
-- 算法 篇
-- MySQL 篇
-- Linux、Git 篇
-- 程序员如何写好一份简历
-- 结语：写给程序员的建议
+- [Web 篇](web.md)
+- [PHP 篇](php.md)
+- [Laravel 篇](laravel.md)
+- [算法篇](algorithm.md)
+- [MySQL 篇](mysql.md)
+- [Linux、Git 篇](linux.md)
+- [程序员如何写好一份简历](readResume.md)
+- [结语：写给程序员的一些建议](givePHperSuggest.md)
+- [扩展阅读资源整理](readResources.md)
 
 **不论你是学习也好，面试也好，都要明白一点，对于技术知识，不应该向背课文一样，死记硬背，理解大于记忆。**
 
