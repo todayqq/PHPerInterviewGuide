@@ -18,8 +18,8 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 - Web 篇
 - PHP 篇
-  - Laravel 篇
-  - 算法 篇
+- Laravel 篇
+- 算法 篇
 - MySQL 篇
 - Linux、Git 篇
 - 程序员如何写好一份简历
