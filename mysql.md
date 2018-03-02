@@ -1,3 +1,11 @@
+- MyISAM 和 InnoDB 的区别
+
+> 1. MyISAM 查询效率更高，但是不支持事物
+> 2. InnoDB 插入、更新较高，支持事物处理
+> 3. MyISAM 支持表锁， InnoDb 支持行锁
+> 4. MyISAM 是默认引擎，InnoDB 需要指定
+> 5. InnoDB 不支持 FULLTEXT 类型的索引
+
 - 什么是索引，作用是什么？常见索引类型有那些？Mysql 建立索引的原则？
 
 > 索引是一种特殊的文件,它们包含着对数据表里所有记录的引用指针，相当于书本的目录。其作用就是加快数据的检索效率。常见索引类型有主键、唯一索引、复合索引、全文索引。
@@ -61,3 +69,4 @@
 - [大众点评订单系统分库分表实践](https://tech.meituan.com/dianping_order_db_sharding.html)
 - [MySQL 死锁问题及解决](http://onwise.xyz/2017/04/20/mysql-%E6%AD%BB%E9%94%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3/)
 - [MySQL索引背后的数据结构及算法原理](https://www.kancloud.cn/kancloud/theory-of-mysql-index/41846)
+- [MySQL存储引擎InnoDB与Myisam的六大区别](https://my.oschina.net/junn/blog/183341)
