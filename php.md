@@ -1,14 +1,19 @@
-PHP 篇收集了一些常见的基础、进阶面试题，基础的面试题不再作答。
+PHP 篇收集了一些常见的基础、进阶面试题。
 
 ### 基础篇
 
 - Get 和 POST 的区别
-- Cookie 和 Session 的区别和关系
 - 单引号和双引号的区别
 - isset 和 empty 的区别
 - echo、print_r、print、var_dump 之间的区别
 - 什么是 MVC？
 - 传值和传引用的区别？
+- Cookie 和 Session 的区别和关系
+
+> 1. Cookie 在客户端（浏览器），Session 在服务器端
+> 2. Session 比 Cookie 安全性更高
+> 3. 单个 Cookie 保存的数据不能超过 4K
+> 4. Session 是基于 Cookie，如果浏览器禁用了 Cookie，Session 也会失效（但是可以通过其它方式实现，比如在 url 中传递 Session ID）
 
 ### 进阶篇
 
