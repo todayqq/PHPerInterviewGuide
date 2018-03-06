@@ -34,10 +34,6 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 为方便大家阅读，将本 repo 同步至 GitBook：https://todayqq.gitbooks.io/phper/content/
 
-## 感谢
-
-我已经找到了自己理想的区块链方向的 Offer，谢谢支持过我的朋友，感谢大家。
-
 ## 支持
 
 如果我写的文章，可以帮到你，不妨支持一下:)
