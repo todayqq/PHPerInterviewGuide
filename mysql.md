@@ -2,9 +2,10 @@
 
 > 1. MyISAM 查询效率更高，但是不支持事物
 > 2. InnoDB 插入、更新较高，支持事物处理
-> 3. MyISAM 支持表锁， InnoDb 支持行锁
-> 4. MyISAM 是默认引擎，InnoDB 需要指定
-> 5. InnoDB 不支持 FULLTEXT 类型的索引
+> 3. InnoDB 支持外键，MyISAM 不支持
+> 4. MyISAM 支持表锁， InnoDb 支持行锁
+> 5. MyISAM 是默认引擎，InnoDB 需要指定
+> 6. InnoDB 不支持 FULLTEXT 类型的索引
 
 - 什么是索引，作用是什么？常见索引类型有那些？Mysql 建立索引的原则？
 
