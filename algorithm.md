@@ -1,6 +1,6 @@
-算法可以说是大厂的必考题，对于算法，一定要理解其中的精髓、原理。
+> 本书的 GitHub 地址：https://github.com/todayqq/PHPerInterviewGuide
 
-**讲真，大多面试官都会问实现原理和实现的具体过程，一定要知其所以然。**
+算法可以说是大厂的必考题，对于算法，一定要理解其中的精髓、原理。
 
 - 冒泡排序
 
@@ -35,33 +35,37 @@ function bubble_sort($arr)
 
 实现思想是：通过一趟排序将待排记录分割成独立的两部分，其中一部分的关键字均比另一部分记录的关键字小，则可分别对这两部分记录继续进行快速排序，整个排序过程可以递归进行，以达到整个序列有序的目的。
 
-简单来说就是：找到当前数组中的任意一个元素（一般选择第一个元素），作为标的，新建两个空数组，遍历整个数组元素，如果遍历到的元素比当前的元素要小，那么就放到左边的数组，否则放到右面的数组，然后再对新数组进行同样的操作。
+简单来说就是：找到当前数组中的任意一个元素（一般选择第一个元素），作为标的，新建两个空数组，遍历这个数组元素，如果数组的值比标的小，那么就放到左边的数组，否则放到右面的数组，然后再对这两个数组进行同样的操作。
 
 ```
-function quick_sort($arr) {
-    $count = count($arr);
-    if(1 >= $count) {
-        return arr;
-    }
+function quickSort($arr)
+{
+	if (!isset($arr[1])) {
+		return $arr;
+	}
+    
+    // 选择标的
+	$baseNum = $arr[0];
+	$leftArr = array();
+	$rightArr = array();
 
-    $base_num = $arr[0]; //选择标的
-    $left_array = array();//小于标的
-    $right_array = array();//大于标的
+	foreach ($arr as $v) {
+		if ($baseNum > $v) {
+			$leftArr[] = $v;
+		} 
+		if ($baseNum < $v) {
+			$rightArr[] = $v;
+		}
+	}
+	
+	$leftArr = quickSort($leftArr);
+	$leftArr[] = $baseNum;
 
-    for($i = 1; $i < $count; $i++) {
-        if($base_num > $arr[$i]) {
-            $left_array[] = $arr[$i];
-        } else {
-            $right_array[] = $arr[$i];
-        }
-    }
-    //再分别对左边和右边的数组，进行相同的排序处理方式
-    $left_array = quick_sort($left_array);
-    $right_array = quick_sort($right_array);
+	$rightArr = quickSort($rightArr);
 
-    //最终合并
-    return array_merge($left_array, array($base_num), $right_array);
+	return array_merge($leftArr, $rightArr);
 }
+
 ```
 
 - 二分查找（折半查找）
@@ -92,8 +96,6 @@ function binSearch($arr, $target){
     return "查找失败";  
 }
 ```
-
-算法就简单罗列这几种，了解更多就看看扩展阅读吧。
 
 ### 扩展阅读
 
