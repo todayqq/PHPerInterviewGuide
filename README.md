@@ -12,11 +12,12 @@
 
 PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache（Nginx）都比较偏运维，但是 PHP、MySQL 是每一位合格的 PHPer 都必须精通的技术栈。
 
-而 Web 开发又不单单只靠 PHP、MySQL，还需要多少的学习一下前端的知识，要精进，进阶到高级，更多的还需要了解高并发、性能优化、Web 安全相关的知识。
+而 Web 开发又不单单只靠 PHP、MySQL，更多的还需要了前端、Web 安全、高并发、性能优化，甚至还需要学习网络协议、算法等等相关的编程知识。
 
 这次整理了不少面试相关的知识和技巧，给大家简单介绍一下纲要：
 
 - [Web 篇](web.md)
+- [协议篇](protocol.md)
 - [PHP 篇](php.md)
 - [Laravel 篇](laravel.md)
 - [算法篇](algorithm.md)
