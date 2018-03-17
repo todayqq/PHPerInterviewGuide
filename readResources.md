@@ -7,6 +7,15 @@
 - [HTTP协议：工作原理](http://blog.csdn.net/anndy_/article/details/77198883)
 - [SSL/TLS协议运行机制的概述](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
 
+### 协议篇
+
+- [https 原理](http://blog.csdn.net/clh604/article/details/22179907)
+- [HTTPS 原理解析](https://juejin.im/entry/59f1b593f265da430b7a7898)
+- [HTTPS 的工作原理](https://www.cnblogs.com/ttltry-air/archive/2012/08/20/2647898.html)
+- [socket](https://baike.baidu.com/item/socket/281150)
+- [HTTP与WebSocket的区别](http://blog.csdn.net/baiye_xing/article/details/73938360)
+- [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
+
 ### 后端篇
 
 - [3年PHPer的面试总结](http://coffeephp.com/articles/4?utm_source=laravel-china.org)
@@ -15,13 +24,15 @@
 - [浅谈IOC--说清楚IOC是什么](http://www.cnblogs.com/DebugLZQ/archive/2013/06/05/3107957.html)
 - [Redis和Memcached的区别](https://www.biaodianfu.com/redis-vs-memcached.html)
 - [MySQL索引原理及慢查询优化](https://tech.meituan.com/mysql-index.html)
-- [MySQL存储引擎InnoDB与Myisam的六大区别](https://my.oschina.net/junn/blog/183341)
 - [分库分表的几种常见形式](http://www.infoq.com/cn/articles/key-steps-and-likely-problems-of-split-table)
 - [大众点评订单系统分库分表实践](https://tech.meituan.com/dianping_order_db_sharding.html)
 - [MySQL 死锁问题及解决](http://onwise.xyz/2017/04/20/mysql-%E6%AD%BB%E9%94%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3/)
-- [MySQL索引背后的数据结构及算法原理](https://www.kancloud.cn/kancloud/theory-of-mysql-index/41846)
 - [CSRF攻击与防御](https://www.cnblogs.com/phpstudy2015-6/p/6771239.html)
 - [XSS跨站脚本攻击](https://www.cnblogs.com/phpstudy2015-6/p/6767032.html#_label9)
+- [PHP 设计模式系列](http://laravelacademy.org/post/2465.html)
+- [MySQL存储引擎InnoDB与Myisam的六大区别](https://my.oschina.net/junn/blog/183341)
+- [『浅入深出』MySQL 中事务的实现](https://draveness.me/mysql-transaction#)
+- [脏读、幻读和不可重复读](http://blog.sina.com.cn/s/blog_8020e4110101bfc6.html)
 
 ### 算法篇
 
@@ -42,5 +53,5 @@
 
 - [程序员简历应该怎么写？](https://www.zhihu.com/question/25002833)
 - [程序员简历模板](https://github.com/geekcompany/ResumeSample)
+- [面试时，如何向公司提问？](http://www.ruanyifeng.com/blog/2012/08/questions_you_need_to_ask_in_an_interview.html)
 - [关于程序员生涯的思考，30 岁以后的码农们该何去何从？](https://www.jianshu.com/p/7e68484a7811)
-- [你的命运不是一头骡子](http://www.ruanyifeng.com/blog/2016/06/your-destiny-is-not-like-a-mule.html)
