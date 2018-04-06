@@ -3,11 +3,53 @@ PHP 篇收集了一些常见的基础、进阶面试题。
 ### 基础篇
 
 - Get 和 POST 的区别
+
+> 传值方式：get 把参数数据加到表单action指定的url后面，参数与数据一一对应，可以在url中看到。post采用HTTP post的机制，将表单的参数内容添加到Html 头内一起传递到action所指的url地址，用户看不到此过程。
+> 大小：get传送的数据很小，不能大于2kb（2048字节，1024字符）。post传送的数据大小默认无限制。
+> 执行效率：get 的执行效率比post好。
+> 安全性：post安全性比get好。
+> 使用创景：做数据查询时，建议用get方式。做数据增加、删除、更新，建议用post方式。
+
 - 单引号和双引号的区别
-- isset 和 empty 的区别
-- echo、print_r、print、var_dump 之间的区别
+
+> 单引号不会读取里面的变量；作为纯字符串处理，读取速度快。双引号会尝试读取里面的变量（即使里面没有），这样读取速度慢。
+
+- isset、empty、is_null 的区别
+
+> isset 判断变量是否已存在(是否声明，是否赋值)，如果变量存在则返回 TRUE，否则返回 FALSE。
+> empty 若变量已存在、非空字符串或者非零，则返回 false 值；否则返回 true。
+> is_null 检测变量是否为NULL。
+
+\- | - | - | -
+--- | --- | --- | ---
+| 变量  | isset($a) | empty($a) | is_null($a) |
+| $a=""     | true | true | false |
+| $a=null   | true | true | true |
+| $a=array() | true | true | false |
+| $a=false | true | true | false |
+| $a=true | true | false | false|
+| $a=1 | true | false | false |
+| $a=0 | true | true | false |
+| $a="0" | true | true | false |
+
+- echo、print_r、print、var_dump、var_export之间的区别
+
+> 
+
+
+- include、include_once、require、 require_once的区别
+
+> 
+
 - 什么是 MVC？
+
+> 
+
+
 - 传值和传引用的区别？
+
+> 
+
 - Cookie 和 Session 的区别和关系
 
 > 1. Cookie 在客户端（浏览器），Session 在服务器端
