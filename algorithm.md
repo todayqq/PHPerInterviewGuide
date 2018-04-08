@@ -96,7 +96,7 @@ function binSearch($arr, $target){
 ### 扩展阅读
 
 - [PHP 冒泡排序](https://www.cnblogs.com/wgq123/p/6529450.html)
-- [php实现快速排序](https://www.cnblogs.com/wangjingwangjing/p/5241486.html)
+- [php四种基础算法](http://www.php100.com/html/php/rumen/2013/1029/6333.html)
 - [PHP实现各种经典算法](https://www.cnblogs.com/hellohell/p/5718175.html)
 - [PHP常见算法-面试篇](http://www.cnblogs.com/zswordsman/p/5824599.html)
 - [php实现二分查找法](https://www.cnblogs.com/wangjingwangjing/p/5206711.html)
