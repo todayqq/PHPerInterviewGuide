@@ -33,39 +33,35 @@ function bubble_sort($arr)
 
 快速排序是对冒泡排序的一种改进。
 
-实现思想是：通过一趟排序将待排记录分割成独立的两部分，其中一部分的关键字均比另一部分记录的关键字小，则可分别对这两部分记录继续进行快速排序，整个排序过程可以递归进行，以达到整个序列有序的目的。
+实现思想是：每次选择一个相应的元素，然后将其放到指定的位置
 
-简单来说就是：找到当前数组中的任意一个元素（一般选择第一个元素），作为标的，新建两个空数组，遍历这个数组元素，如果数组的值比标的小，那么就放到左边的数组，否则放到右面的数组，然后再对这两个数组进行同样的操作。
-
-```
-function quickSort($arr)
-{
-	if (!isset($arr[1])) {
-		return $arr;
-	}
-    
-    // 选择标的
-	$baseNum = $arr[0];
-	$leftArr = array();
-	$rightArr = array();
-
-	foreach ($arr as $v) {
-		if ($baseNum > $v) {
-			$leftArr[] = $v;
-		} 
-		if ($baseNum < $v) {
-			$rightArr[] = $v;
-		}
-	}
-	
-	$leftArr = quickSort($leftArr);
-	$leftArr[] = $baseNum;
-
-	$rightArr = quickSort($rightArr);
-
-	return array_merge($leftArr, $rightArr);
+```	
+function select_sort($arr) {
+//实现思路 双重循环完成，外层控制轮数，当前的最小值。内层 控制的比较次数
+    //$i 当前最小值的位置， 需要参与比较的元素
+    for($i=0, $len=count($arr); $i<$len-1; $i++) {
+        //先假设最小的值的位置
+        $p = $i;
+        //$j 当前都需要和哪些元素比较，$i 后边的。
+        for($j=$i+1; $j<$len; $j++) {
+            //$arr[$p] 是 当前已知的最小值
+            if($arr[$p] > $arr[$j]) {
+     //比较，发现更小的,记录下最小值的位置；并且在下次比较时，
+ // 应该采用已知的最小值进行比较。
+                $p = $j;
+            }
+        }
+        //已经确定了当前的最小值的位置，保存到$p中。
+ //如果发现 最小值的位置与当前假设的位置$i不同，则位置互换即可
+        if($p != $i) {
+            $tmp = $arr[$p];
+            $arr[$p] = $arr[$i];
+            $arr[$i] = $tmp;
+        }
+    }
+    //返回最终结果
+    return $arr;
 }
-
 ```
 
 - 二分查找（折半查找）
