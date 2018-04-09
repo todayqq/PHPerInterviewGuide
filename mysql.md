@@ -97,5 +97,6 @@
 - [MySQL 死锁问题及解决](http://onwise.xyz/2017/04/20/mysql-%E6%AD%BB%E9%94%81%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3/)
 - [MySQL索引背后的数据结构及算法原理](https://www.kancloud.cn/kancloud/theory-of-mysql-index/41846)
 - [MySQL存储引擎InnoDB与Myisam的六大区别](https://my.oschina.net/junn/blog/183341)
+- [MySQL存储引擎MyISAM与InnoDB的区别比较](https://www.awaimai.com/557.html)
 - [『浅入深出』MySQL 中事务的实现](https://draveness.me/mysql-transaction#)
 - [脏读、幻读和不可重复读](http://blog.sina.com.cn/s/blog_8020e4110101bfc6.html)
