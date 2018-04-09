@@ -176,3 +176,4 @@ SQL 注入的常见场景
 - [CSRF攻击与防御](https://www.cnblogs.com/phpstudy2015-6/p/6771239.html)
 - [XSS跨站脚本攻击](https://www.cnblogs.com/phpstudy2015-6/p/6767032.html#_label9)
 - [PHP 设计模式系列](http://laravelacademy.org/post/2465.html)
+- [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html#comment-17650)
