@@ -90,6 +90,7 @@
 
 ### 扩展阅读
 
+- [MySQL索引入门简述](https://www.awaimai.com/531.html)
 - [MySQL索引原理及慢查询优化](https://tech.meituan.com/mysql-index.html)
 - [分库分表的几种常见形式](http://www.infoq.com/cn/articles/key-steps-and-likely-problems-of-split-table)
 - [大众点评订单系统分库分表实践](https://tech.meituan.com/dianping_order_db_sharding.html)
