@@ -44,12 +44,6 @@ PHP 篇收集了一些常见的基础、进阶面试题。
 > 1. require 和 include 几乎完全一样，除了处理失败的方式不同之外。require 在出错时产生 E_COMPILE_ERROR 级别的错误。换句话说将导致脚本中止而 include 只产生警告（E_WARNING），脚本会继续运行。
 > 2. include_once 和 requrei_once 语句在脚本执行期间包含并运行指定文件, 并只会包含进来一次。
 
-- 什么是 MVC？
-
-> MVC（Model-View-Controller）是软件工程中的一种软件架构模式。MVC 的目标是将业务逻辑从用户界面的考虑中分离。
-> 在 MVC 中 ，Model 代表数据和业务规则；View 包含了用户界面元素，例如文本，表单等；Controller 则管理模型和视图中的通信。
-
-
 - 传值、传地址、传引用的区别？
 
 > 1. 传值是把实参的值赋值给行参，那么对行参的修改，**不会影响实参的值**。
@@ -62,6 +56,21 @@ PHP 篇收集了一些常见的基础、进阶面试题。
 > 2. Session 比 Cookie 安全性更高
 > 3. 单个 Cookie 保存的数据不能超过 4K
 > 4. Session 是基于 Cookie，如果浏览器禁用了 Cookie，Session 也会失效（但是可以通过其它方式实现，比如在 url 中传递 Session ID）
+
+- 什么是 MVC？
+
+> MVC（Model-View-Controller）是软件工程中的一种软件架构模式。MVC 的目标是将业务逻辑从用户界面的考虑中分离。
+> 在 MVC 中 ，Model 代表数据和业务规则；View 包含了用户界面元素，例如文本，表单等；Controller 则管理模型和视图中的通信。
+
+- RESTFul 架构
+
+> 1. 每一种URI都是一种资源
+> 2. 客户端和服务器之间，传递这种资源的某种表现层
+> 3. 客户端通过HTTP动词[Get(Select)，Post(Create)，Delete(Delete)，Patch(Update), Put(Update)]，对服务器端资源进行操作，实现“表现层状态转变”
+
+
+了解更多，请看[理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful)
+RESTFul API 设计，请看[RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 ### 进阶篇
 
