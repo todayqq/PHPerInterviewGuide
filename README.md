@@ -35,6 +35,18 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 为方便大家阅读，将本 repo 同步至 GitBook：https://todayqq.gitbooks.io/phper/content/
 
+## 关于作者
+
+赵金超，一位知趣、有趣、有自我觉悟的程序员
+
+个人博客：[简书主页](https://www.jianshu.com/u/bf11017ee65a)
+
+公众号：今朝浅谈，不定期更新区块链相关知识
+
+## 贡献
+
+本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
+
 ## 支持
 
 如果我写的文章，可以帮到你，不妨支持一下:)
