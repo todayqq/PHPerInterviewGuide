@@ -77,11 +77,11 @@ function binSearch($arr, $target){
         if($arr[$mid] == $target){  
             return $mid; 
 
-        //元素比目标大，查找左部 
+        //元素比目标小，查找右部
         } elseif ($arr[$mid] < $target){
             $low = $mid + 1;  
-
-        //元素比目标小，查找右部
+            
+        //元素比目标大，查找左部 
         } elseif ($arr[$mid] > $target){  
             $height = $mid - 1;  
         }  
