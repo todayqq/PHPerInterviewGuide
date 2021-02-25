@@ -72,7 +72,7 @@ DIP	| 依赖反转原则	| 依赖抽象而不是具体实现
 > 2. 变量引用之后及时销毁
 > 3. 将数据分批处理
 
-- Redis、Memecached 这两者有什么区别？
+- Redis、Memcached 这两者有什么区别？
 
 > 1. Redis 支持更加丰富的数据存储类型，String、Hash、List、Set 和 Sorted Set。Memcached 仅支持简单的 key-value 结构。
 > 2. Memcached key-value存储比 Redis 采用 hash 结构来做 key-value 存储的内存利用率更高。
