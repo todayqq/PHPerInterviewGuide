@@ -33,39 +33,32 @@ function bubble_sort($arr)
 
 快速排序是对冒泡排序的一种改进。
 
-实现思想是：通过一趟排序将待排记录分割成独立的两部分，其中一部分的关键字均比另一部分记录的关键字小，则可分别对这两部分记录继续进行快速排序，整个排序过程可以递归进行，以达到整个序列有序的目的。
+实现过程是：
 
-简单来说就是：找到当前数组中的任意一个元素（一般选择第一个元素），作为标的，新建两个空数组，遍历这个数组元素，如果数组的值比标的小，那么就放到左边的数组，否则放到右面的数组，然后再对这两个数组进行同样的操作。
+1. 先从数列中取出一个数作为基准数。
+2. 分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。
+3. 再对左右区间重复第二步，直到各区间只有一个数。
 
-```
-function quickSort($arr)
-{
-	if (!isset($arr[1])) {
-		return $arr;
-	}
-    
-    // 选择标的
-	$baseNum = $arr[0];
-	$leftArr = array();
-	$rightArr = array();
-
-	foreach ($arr as $v) {
-		if ($baseNum > $v) {
-			$leftArr[] = $v;
-		} 
-		if ($baseNum < $v) {
-			$rightArr[] = $v;
-		}
-	}
-	
-	$leftArr = quickSort($leftArr);
-	$leftArr[] = $baseNum;
-
-	$rightArr = quickSort($rightArr);
-
-	return array_merge($leftArr, $rightArr);
+```	
+function quick_sort(array $list) {
+    $len = count($list);
+    if ($len <= 1) {
+        return $list;
+    }
+    $pivotValue = $list[0];
+    $left = array();
+    $right = array();
+    for ($i = 1; $i < $len; $i++) { 
+        if ($list[$i] < $pivotValue) {
+            $left[] = $list[$i];
+        }else{
+            $right[] = $list[$i];
+        }
+    }
+    $left = quick_sort($left);
+    $right = quick_sort($right);
+    return array_merge($left, array($pivotValue), $right);
 }
-
 ```
 
 - 二分查找（折半查找）
@@ -84,11 +77,11 @@ function binSearch($arr, $target){
         if($arr[$mid] == $target){  
             return $mid; 
 
-        //元素比目标大，查找左部 
+        //元素比目标小，查找右部
         } elseif ($arr[$mid] < $target){
             $low = $mid + 1;  
-
-        //元素比目标小，查找右部
+            
+        //元素比目标大，查找左部 
         } elseif ($arr[$mid] > $target){  
             $height = $mid - 1;  
         }  
@@ -100,7 +93,7 @@ function binSearch($arr, $target){
 ### 扩展阅读
 
 - [PHP 冒泡排序](https://www.cnblogs.com/wgq123/p/6529450.html)
-- [php实现快速排序](https://www.cnblogs.com/wangjingwangjing/p/5241486.html)
+- [php四种基础算法](http://www.php100.com/html/php/rumen/2013/1029/6333.html)
 - [PHP实现各种经典算法](https://www.cnblogs.com/hellohell/p/5718175.html)
 - [PHP常见算法-面试篇](http://www.cnblogs.com/zswordsman/p/5824599.html)
 - [php实现二分查找法](https://www.cnblogs.com/wangjingwangjing/p/5206711.html)

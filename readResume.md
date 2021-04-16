@@ -5,21 +5,21 @@
 1. 简历的格式推荐使用 PDF，兼容性强且不易乱序
 2. 简历的排版要简单明了、一目了然、结构清晰
 3. 清晰罗列出个人基本信息
-   - 姓名、性别
-   - 学历、毕业院校
-   - 电话、邮箱
-   - 居住地、期望地
-   - 求职岗位、期望薪水
-   - 最好有个人博客、GitHub 地址
+   * 姓名、性别
+   * 学历、毕业院校
+   * 电话、邮箱
+   * 居住地、期望地
+   * 求职岗位、期望薪水
+   * 最好有个人博客、GitHub 地址
 4. 技术栈
 5. 工作经历
-   - 哪家公司、担任职位
-   - 起止时间
-   - 工作职责
+   * 哪家公司、担任职位
+   * 起止时间
+   * 工作职责
 6. 项目经历
-   - 这个项目是什么
-   - 你负责处理了什么
-   - 结果是什么
+   * 这个项目是什么
+   * 你负责处理了什么
+   * 结果是什么
 7. 教育经历
 8. 个人评价
 
@@ -36,7 +36,7 @@
 
 **简历千万不要造假，不要造假，不要造假！**
 
-- https://github.com/todayqq/resume
+* [https://github.com/todayqq/resume](https://github.com/todayqq/resume)
 
 这是我的简历，大家可以参考一下。
 
@@ -44,13 +44,13 @@
 
 1. 模板
 
-- https://github.com/geekcompany/ResumeSample
+2. [https://github.com/geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample)
 
 这份模板中包含了 PHP、iOS、Android、Java、前端等等之类的工程师简历模板，写起简历来太轻松，有木有！
 
-2. 在线工具
+1. 在线工具
 
-- http://cv.ftqq.com/?fr=github#
+2. [http://cv.ftqq.com/?fr=github\#](http://cv.ftqq.com/?fr=github#)
 
 在线直接编写，还可以下载、转换 PDF 文件等等。
 
@@ -58,5 +58,8 @@
 
 ### 扩展阅读
 
-- [程序员简历应该怎么写？](https://www.zhihu.com/question/25002833)
-- [面试时，如何向公司提问？](http://www.ruanyifeng.com/blog/2012/08/questions_you_need_to_ask_in_an_interview.html)
+* [程序员简历应该怎么写？](https://www.zhihu.com/question/25002833)
+* [面试时，如何向公司提问？](http://www.ruanyifeng.com/blog/2012/08/questions_you_need_to_ask_in_an_interview.html)
+
+
+

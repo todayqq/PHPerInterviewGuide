@@ -10,5 +10,8 @@
 * [Linux、Git 篇](linux.md)
 * [程序员如何写好一份简历？](readResume.md)
 * [结语：写给程序员的一些建议](givePHperSuggest.md)
+* [扩展阅读资源整理](readResources.md)
+
+
 
 
