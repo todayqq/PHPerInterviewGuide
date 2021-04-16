@@ -3,17 +3,74 @@ PHP 篇收集了一些常见的基础、进阶面试题。
 ### 基础篇
 
 - Get 和 POST 的区别
+
+> 1. 传值方式：get 把参数数据加到表单action指定的url后面，参数与数据一一对应，可以在url中看到。post采用HTTP post的机制，将表单的参数内容添加到Html 头内一起传递到action所指的url地址，用户看不到此过程。
+> 2. 大小：get传送的数据很小，不能大于2kb（2048字节，1024字符）。post传送的数据大小默认无限制。
+> 3. 执行效率：get 的执行效率比post好。
+> 4. 安全性：post安全性比get好。
+> 5. 使用创景：做数据查询时，建议用get方式。做数据增加、删除、更新，建议用post方式。
+
 - 单引号和双引号的区别
-- isset 和 empty 的区别
-- echo、print_r、print、var_dump 之间的区别
-- 什么是 MVC？
-- 传值和传引用的区别？
+
+> 1. 单引号不会读取里面的变量；作为纯字符串处理，读取速度快。
+> 2. 双引号会尝试读取里面的变量（即使里面没有），这样读取速度慢。
+
+- isset、empty、is_null 的区别
+
+> 1. isset 判断变量是否已存在(是否声明，是否赋值)，如果变量存在则返回 TRUE，否则返回 FALSE。
+> 2. empty 若变量已存在、非空字符串或者非零，则返回 false 值；否则返回 true。
+> 3. is_null 检测变量是否为NULL。
+
+\- | - | - | -
+--- | --- | --- | ---
+| 变量  | isset($a) | empty($a) | is_null($a) |
+| $a=""     | true | true | false |
+| $a=null   | true | true | true |
+| $a=array() | true | true | false |
+| $a=false | true | true | false |
+| $a=true | true | false | false|
+| $a=1 | true | false | false |
+| $a=0 | true | true | false |
+| $a="0" | true | true | false |
+
+- echo、print、print_r()、var_export()、var_dump()之间的区别
+
+> 1. echo和print是语言结构，非函数，能打印整型和字符串。
+> 2. print_r()和var_export()打印整型、字符串外，还能打印数组、对象，以键值对形式打印数组、对象。var_export()还可打印布尔值，var_export()在第二个参数设置true，不会打印变量，而是将其以字符串形式返回，返回值可以赋值给php变量。
+> 3. var_dump()除了打印整型、字符串、数组、对象，还能打印布尔型。而且是输出变量类型、长度和值。
+
+- include、require、include_once、 require_once的区别
+
+> 1. require 和 include 几乎完全一样，除了处理失败的方式不同之外。require 在出错时产生 E_COMPILE_ERROR 级别的错误。换句话说将导致脚本中止而 include 只产生警告（E_WARNING），脚本会继续运行。
+> 2. include_once 和 requrei_once 语句在脚本执行期间包含并运行指定文件, 并只会包含进来一次。
+
+- 传值、传地址、传引用的区别？
+
+> 1. 传值是把实参的值赋值给行参，那么对行参的修改，**不会影响实参的值**。
+> 2. 传地址是传值的一种特殊方式，只是他传递的是地址，不是普通的如int，那么传地址以后，实参和行参都指向同一个对象。
+> 3. 传引用真正的以地址的方式传递参数，传递以后，行参和实参都是同一个对象，只是他们名字不同而已，**对行参的修改将影响实参的值**。
+
 - Cookie 和 Session 的区别和关系
 
 > 1. Cookie 在客户端（浏览器），Session 在服务器端
 > 2. Session 比 Cookie 安全性更高
 > 3. 单个 Cookie 保存的数据不能超过 4K
 > 4. Session 是基于 Cookie，如果浏览器禁用了 Cookie，Session 也会失效（但是可以通过其它方式实现，比如在 url 中传递 Session ID）
+
+- 什么是 MVC？
+
+> MVC（Model-View-Controller）是软件工程中的一种软件架构模式。MVC 的目标是将业务逻辑从用户界面的考虑中分离。
+> 在 MVC 中 ，Model 代表数据和业务规则；View 包含了用户界面元素，例如文本，表单等；Controller 则管理模型和视图中的通信。
+
+- RESTFul 架构
+
+> 1. 每一种URI都是一种资源
+> 2. 客户端和服务器之间，传递这种资源的某种表现层
+> 3. 客户端通过HTTP动词[Get(Select)，Post(Create)，Delete(Delete)，Patch(Update), Put(Update)]，对服务器端资源进行操作，实现“表现层状态转变”
+
+
+了解更多，请看[理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful)
+RESTFul API 设计，请看[RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 
 ### 进阶篇
 
@@ -128,3 +185,4 @@ SQL 注入的常见场景
 - [CSRF攻击与防御](https://www.cnblogs.com/phpstudy2015-6/p/6771239.html)
 - [XSS跨站脚本攻击](https://www.cnblogs.com/phpstudy2015-6/p/6767032.html#_label9)
 - [PHP 设计模式系列](http://laravelacademy.org/post/2465.html)
+- [CGI、FastCGI和PHP-FPM关系图解](https://www.awaimai.com/371.html#comment-17650)
