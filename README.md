@@ -31,7 +31,6 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 希望大家看完之后，都能有所收获，早日找到梦寐以求的 Offer。
 
-另外，有朋友的公司在招聘 PHP 开发工程师，有需要的可以帮忙内推 :)
 
 ## GitBook链接
 
@@ -39,21 +38,13 @@ PHPer 的开发的技术栈大多是 LAMP 或者是 LNMP，其中 Linux、Apache
 
 ## 关于作者
 
-赵金超，一位知趣、有趣、有自我觉悟的程序员
-
-个人博客：[简书主页](https://www.jianshu.com/u/bf11017ee65a)
+脚踏实地 志存高远
 
 公众号：[程序员的思考笔记](https://mp.weixin.qq.com/s?__biz=MzA3MDQ0NjQ5OA==&mid=2247483784&idx=1&sn=4b8dd5ff357d4052948041cc6c6610f9&chksm=9f3dfd45a84a74530b2edfc0c7604a73ee1df2a666c188f46da04d826d3c881e3ab8719a2d22&mpshare=1&scene=1&srcid=&sharer_sharetime=1570455764250&sharer_shareid=f6b8b2ff8c881a56235903e7c8908e44&key=9fa8d31375b523a2ec3616d3386e13379812d32288c0cf164d276d05925c451b9a995fef20b1e5f214c37c24f7e407513a75f84b5485e6b06d6ce26d7578b6a0d4f84cdcb8ec1c4db233f06d930dec83&ascene=0&uin=NjY4NTk4MjYz&devicetype=iMac+MacBookPro11%2C4+OSX+OSX+10.14.5+build(18F132)&version=12020810&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=wa%2BInMYg2AawPuX8OVN%2BBs2YpIGST2vqpmNDRfi54xRUL1YHC9oCz5quro53diBI)
 
 ## 贡献
 
 本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)。
-
-## 支持
-
-如果我写的文章，可以帮到你，不妨支持一下:)
-
-![](/assets/45c68202-fa78-11e6-8125-3e365101a313.png)
 
 ## 转载合作
 
